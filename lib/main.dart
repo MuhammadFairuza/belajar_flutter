@@ -1,5 +1,6 @@
 import 'package:belajar_flutter/explore_page.dart';
 import 'package:belajar_flutter/my_home_page.dart';
+import 'package:belajar_flutter/widgets/menu.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "Learn Flutter",
-      home: ExplorePage(),
+      home: Menu(),
     );
   }
 }

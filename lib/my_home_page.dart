@@ -11,8 +11,8 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Color.fromARGB(255, 2, 9, 32),
       appBar: AppBar(
-        backgroundColor: Colors.purple,
-        title: const Text("Azri Project :)"),
+        backgroundColor: Colors.amberAccent,
+        title: const Text("Azri Project"),
         centerTitle: true,
       ),
       body: SingleChildScrollView(
@@ -21,7 +21,7 @@ class MyHomePage extends StatelessWidget {
             Container(
               height: MediaQuery.of(context).size.height,
               width: double.infinity,
-              color: Colors.black,
+              color: Colors.grey,
               child: Center(
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
